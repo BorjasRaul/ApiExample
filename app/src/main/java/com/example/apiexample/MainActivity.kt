@@ -17,6 +17,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 //raul
+//borjas b
 class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener{
     private lateinit var binding : ActivityMainBinding
     private lateinit var adapter: DogsAdapter
