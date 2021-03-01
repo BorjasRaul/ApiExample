@@ -16,12 +16,11 @@ import kotlinx.coroutines.launch
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-//raul
+
 class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener{
     private lateinit var binding : ActivityMainBinding
     private lateinit var adapter: DogsAdapter
     private val dogImage= mutableListOf<String>()
-    //hola
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
